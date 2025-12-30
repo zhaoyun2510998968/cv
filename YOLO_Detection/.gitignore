@@ -45,6 +45,10 @@ results/train_results*/results.png
 results/train_results*/confusion_matrix.png
 runs/detect/*/weights/
 
+# Allow publishing specific trained weights from run 7
+!results/train_results7/weights/best.pt
+!results/train_results7/weights/last.pt
+
 # Logs
 *.log
 logs/
