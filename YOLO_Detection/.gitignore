@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# YOLO Models (重的预训练模型)
+*.pt
+!yolo11n.pt
+!yolov8n.pt
+
+# Dataset (数据集通常很大)
+data/coco128/images/
+data/coco128/labels/
+
+# Training Results (训练结果中的模型权重)
+results/runs/
+results/train_results*/weights/*.pt
+results/train_results*/results.png
+results/train_results*/confusion_matrix.png
+runs/detect/*/weights/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
